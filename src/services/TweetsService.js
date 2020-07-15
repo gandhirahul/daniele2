@@ -2,7 +2,7 @@ import ApiService from "./ApiService";
 
 class TweetsService {
   async get(cursorId = null) {
-    const count = 50;
+    const count = 20;
     const query = cursorId
       ? `/api?count=${count}&afterId=${cursorId}`
       : `/api?count=${count}`;

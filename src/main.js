@@ -5,6 +5,7 @@ import VueLazyload from "vue-lazyload";
 Vue.use(VueLazyload);
 
 Vue.config.productionTip = false;
+Vue.config.devtools = true;
 Vue.config.performance = true;
 
 new Vue({
